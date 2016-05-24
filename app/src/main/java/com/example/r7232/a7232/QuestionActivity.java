@@ -88,21 +88,13 @@ public abstract class QuestionActivity extends AppCompatActivity {
             case R.id.radio_a:
 
                 userAnswers.setAnswers(m_index , 1);
-                Log.d("abc","" + userAnswers.getAnswers(0)) ;
-                Log.d("abc","" + userAnswers.getAnswers(1)) ;
-                Log.d("abc","" + userAnswers.getAnswers(2)) ;
-                Log.d("abc","" + userAnswers.getAnswers(3)) ;
-                Log.d("abc","" + userAnswers.getAnswers(4)) ;
+
 
                 break;
             case R.id.radio_b:
 
                 userAnswers.setAnswers(m_index , 0);
-                Log.d("abc","" + userAnswers.getAnswers(0)) ;
-                Log.d("abc","" + userAnswers.getAnswers(1)) ;
-                Log.d("abc","" + userAnswers.getAnswers(2)) ;
-                Log.d("abc","" + userAnswers.getAnswers(3)) ;
-                Log.d("abc","" + userAnswers.getAnswers(4)) ;
+
                 break;
         }
     }
